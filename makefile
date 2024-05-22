@@ -11,3 +11,4 @@ run:
 
 clean:
 	rm -f bin/*
+	rm core
