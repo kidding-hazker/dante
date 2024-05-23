@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/sh
 
-xeyes && sleep 2 &
-exec bin/minidesk
+bin/minidesk &
+exec xeyes

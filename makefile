@@ -7,8 +7,8 @@ build: $(src)
 
 run:
 	make build
-	xinit ./xinitrc -- $(xde) :100 -ac -screen 1280x720 -host-cursor
+	xinit ./xinitrc -- $(xde) :100 -ac -screen 800x600 -host-cursor
+	make clean
 
 clean:
-	rm -f bin/*
-	rm core
+	rm -f bin/* core
