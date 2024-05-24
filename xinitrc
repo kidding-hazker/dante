@@ -1,4 +1,5 @@
 #!/bin/sh
 
-bin/minidesk &
-exec xeyes
+target/debug/minidesk || target/release/minidesk &
+xeyes &
+exec xclock -geometry 200x200-0-0
