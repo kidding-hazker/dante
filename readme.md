@@ -5,7 +5,7 @@ Necessary `xinitrc` config:
 ``` sh
 #!/bin/sh
 
-usr/bin/minidesk &
+/usr/bin/minidesk &
 xclock &
 # ... running your custom apps
 exec xterm
