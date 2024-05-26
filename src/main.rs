@@ -1,5 +1,7 @@
 pub mod window_manager;
 pub mod cursorcont;
+pub mod frame;
+pub mod config;
 
 fn main() {
     unsafe {
