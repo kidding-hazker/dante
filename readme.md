@@ -5,8 +5,8 @@ Necessary `xinitrc` config:
 ``` sh
 #!/bin/sh
 
-/usr/bin/minidesk &
-xclock &
-# ... running your custom apps
-exec xterm
+target/release/minidesk-wm || target/debug/minidesk-wm &
+xeyes &
+xterm &
+exec xclock -geometry 200x200-0-0
 ```

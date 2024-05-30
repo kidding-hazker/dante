@@ -5,3 +5,7 @@ edition = "2021"
 
 [dependencies]
 x11 = "2.21.0"
+
+[[bin]]
+name = "minidesk-wm"
+path = "src/minidesk-wm/main.rs"
